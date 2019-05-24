@@ -2,9 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style type="text/css">
-        .auto-style4 {
-            width: 100%;
-        }
         .auto-style5 {
             height: 22px;
             text-align: center;
@@ -29,6 +26,7 @@
         }
         .auto-style11 {
             height: 23px;
+            text-align: center;
         }
         .auto-style12 {
             background-color: #FFCCFF;
@@ -60,7 +58,13 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style11" colspan="3"></td>
+            <td class="auto-style11" colspan="3">
+                <asp:Button ID="btnCalcular" class="btn btn-outline-dark" runat="server" OnClick="btnCalcular_Click" Text="Calcular" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style11" colspan="3">
+                &nbsp;</td>
         </tr>
         <tr class="auto-style12">
             <td class="auto-style6" colspan="3">Resultados</td>

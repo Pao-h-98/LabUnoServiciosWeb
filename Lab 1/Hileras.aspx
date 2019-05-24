@@ -33,35 +33,35 @@
                     <tr>
                         <td class="auto-style8">Hilera</td>
                         <td class="auto-style7">
-                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtHilera" runat="server"></asp:TextBox>
                         </td>
                         <td class="text-left" rowspan="5">
-                            <asp:Button class="btn btn-outline-dark" ID="btnEjecutar" runat="server" Text="Ejecutar" />
+                            <asp:Button class="btn btn-outline-dark" ID="btnEjecutar" runat="server" Text="Ejecutar" OnClick="btnEjecutar_Click" />
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style8">Total de Vocales</td>
                         <td class="auto-style7">
-                            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtVocales" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style8">Total Consonantes</td>
                         <td class="auto-style7">
-                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtConsonantes" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style8">Hilera alrevez</td>
                         <td class="auto-style7">
-                            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtVuelta" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
                         <td class="auto-style8">Hilera dividida</td>
                         <td class="auto-style7">50 %
-                            <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-&nbsp;50%<asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtMitadUno" runat="server"></asp:TextBox>
+&nbsp;50%<asp:TextBox ID="txtMitadDos" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                 </table>
