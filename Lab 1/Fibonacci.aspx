@@ -34,6 +34,13 @@
                 <asp:Button ID="btnLimpiar" class="btn btn-outline-dark" runat="server" Text="Limpiar" OnClick="btnLimpiar_Click" />
             </td>
         </tr>
+        <tr>
+            <td>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ParteDos.aspx">Volver a menú</asp:HyperLink>
+            </td>
+            <td>
+                &nbsp;</td>
+        </tr>
     </table>
 </asp:Content>
 

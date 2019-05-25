@@ -11,6 +11,9 @@
         .auto-style6 {
             background-color: #FFCCFF;
         }
+        .auto-style7 {
+            text-align: left;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -21,6 +24,11 @@
         <tr>
             <td class="auto-style5">
                 <asp:TextBox ID="txtResultado" runat="server" Height="233px" TextMode="MultiLine"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style7">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ParteDos.aspx">Volver a menú</asp:HyperLink>
             </td>
         </tr>
     </table>

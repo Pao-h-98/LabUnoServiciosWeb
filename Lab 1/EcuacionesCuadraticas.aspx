@@ -97,7 +97,9 @@
             </td>
         </tr>
         <tr>
-            <td colspan="3">&nbsp;</td>
+            <td colspan="3">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ParteUno.aspx">Volver a Menú</asp:HyperLink>
+            </td>
         </tr>
     </table>
 </asp:Content>

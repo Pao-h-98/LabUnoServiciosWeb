@@ -8,6 +8,9 @@
         .auto-style5 {
             text-align: center;
         }
+        .auto-style6 {
+            text-align: left;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -20,6 +23,11 @@
         <tr>
             <td class="auto-style5">
                 <asp:HyperLink ID="hplPersona" runat="server" NavigateUrl="~/DatosPersona.aspx">Datos de Persona</asp:HyperLink>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style6">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Inicio.aspx">Volver a inicio</asp:HyperLink>
             </td>
         </tr>
     </table>

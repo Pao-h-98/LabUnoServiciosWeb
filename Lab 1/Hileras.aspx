@@ -68,7 +68,9 @@
             </td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
+            <td>
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ParteUno.aspx">Volver a menú</asp:HyperLink>
+            </td>
         </tr>
     </table>
 </asp:Content>

@@ -41,6 +41,11 @@
                 <asp:Button ID="btnResultados"  class="btn btn-outline-dark" runat="server" Text="Ver Resultados" OnClick="btnResultados_Click" />
             </td>
         </tr>
+        <tr>
+            <td class="text-left" colspan="2">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ParteDos.aspx">Volver a menú</asp:HyperLink>
+            </td>
+        </tr>
     </table>
 </asp:Content>
 

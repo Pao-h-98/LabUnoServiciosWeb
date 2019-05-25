@@ -27,6 +27,11 @@
                 <asp:HyperLink ID="hplTablas" runat="server" NavigateUrl="~/Tablas.aspx">Lista de Productos</asp:HyperLink>
             </td>
         </tr>
+        <tr>
+            <td class="text-left">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Inicio.aspx">Volver a inicio</asp:HyperLink>
+            </td>
+        </tr>
     </table>
 </asp:Content>
 

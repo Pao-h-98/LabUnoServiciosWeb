@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td class="auto-style5">
-                <asp:HyperLink ID="tercero" runat="server">Parte 3</asp:HyperLink>
+                <asp:HyperLink ID="tercero" runat="server" NavigateUrl="~/ParteTres.aspx">Parte 3</asp:HyperLink>
             </td>
         </tr>
         <tr>

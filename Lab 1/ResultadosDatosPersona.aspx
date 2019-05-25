@@ -9,6 +9,10 @@
         .auto-style5 {
             background-color: #FFCCFF;
         }
+        .auto-style6 {
+            width: 400px;
+            text-align: left;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -33,6 +37,13 @@
             <td>
                 <asp:TextBox ID="txtSigno" runat="server" ReadOnly="True"></asp:TextBox>
             </td>
+        </tr>
+        <tr>
+            <td class="auto-style6">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ParteDos.aspx">Volver a menú</asp:HyperLink>
+            </td>
+            <td>
+                &nbsp;</td>
         </tr>
     </table>
 </asp:Content>
