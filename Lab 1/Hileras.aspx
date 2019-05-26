@@ -37,6 +37,7 @@
                         </td>
                         <td class="text-left" rowspan="5">
                             <asp:Button class="btn btn-outline-dark" ID="btnEjecutar" runat="server" Text="Ejecutar" OnClick="btnEjecutar_Click" />
+                            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                         </td>
                     </tr>
                     <tr>

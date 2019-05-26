@@ -35,7 +35,7 @@
         <tr>
             <td class="auto-style4">Signo Zodiacal</td>
             <td>
-                <asp:TextBox ID="txtSigno" runat="server" ReadOnly="True"></asp:TextBox>
+                <asp:TextBox ID="txtSigno" runat="server" ReadOnly="True" OnTextChanged="txtSigno_TextChanged"></asp:TextBox>
             </td>
         </tr>
         <tr>

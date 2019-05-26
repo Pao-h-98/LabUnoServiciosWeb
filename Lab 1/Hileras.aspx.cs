@@ -14,30 +14,39 @@ public partial class Hileras : System.Web.UI.Page
 
     string palabra;
     int Totvocal;
+
+    
     //string.contains
     //split
+ 
     public void vocales()
     {
-        palabra = txtHilera.Text.ToString();
+        palabra = txtHilera.Text;
+        string[] usar = new string[palabra.Length];
         for (int i = 0; i < palabra.Length; i++)
         {
-            if (palabra.Contains("a"))
+            
+        }
+        for (int i = 0; i < palabra.Length; i++)
+        {  
+            if (palabra[i].Equals("a") || palabra[i].Equals("A"))
+            {
+                Label1.Text = "que carajos";
+                Totvocal++;
+            }
+            if (palabra[i].Equals("e") || palabra[i].Equals("E"))
             {
                 Totvocal++;
             }
-            else if (palabra.Contains("e"))
+            if (palabra[i].Equals("i") || palabra[i].Equals("I"))
             {
                 Totvocal++;
             }
-            else if (palabra.Contains("i"))
+            if (palabra[i].Equals("o") || palabra[i].Equals("O"))
             {
                 Totvocal++;
             }
-            else if (palabra.Contains("o"))
-            {
-                Totvocal++;
-            }
-            else if (palabra.Contains("u"))
+            if (palabra[i].Equals("u") || palabra[i].Equals("U"))
             {
                 Totvocal++;
             }

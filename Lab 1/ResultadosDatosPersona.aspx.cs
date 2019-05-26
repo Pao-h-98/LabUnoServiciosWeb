@@ -117,4 +117,9 @@ public partial class ResultadosDatosPersona : System.Web.UI.Page
         }
 
     }
+
+    protected void txtSigno_TextChanged(object sender, EventArgs e)
+    {
+
+    }
 }
